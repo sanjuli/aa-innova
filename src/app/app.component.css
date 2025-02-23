@@ -1,0 +1,30 @@
+/* Elimina márgenes y rellenos de todo */
+html, body {
+  height: 100%;
+  width: 100%; /* Asegúrate de que el ancho sea el 100% */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evitar barras de desplazamiento horizontales */
+}
+
+/* Para asegurarte de que el contenedor principal ocupe todo el ancho y alto */
+#app-container {
+  height: 100%;
+  width: 100%; /* Asegura que ocupe el 100% del ancho */
+}
+
+/* Asegurarte de que los elementos dentro del contenedor no tengan márgenes adicionales */
+* {
+  box-sizing: border-box;
+}
+
+/* Evitar márgenes en los elementos principales de la página */
+body, h1, h2, p, ul, li, .container, .d-flex {
+  margin: 0;
+  padding: 0;
+}
+
+/* Usar un fondo si lo deseas */
+body {
+  background-color: #f8f9fa; /* O el color que prefieras */
+}

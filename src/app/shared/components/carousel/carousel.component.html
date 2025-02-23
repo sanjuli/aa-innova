@@ -1,0 +1,103 @@
+<div
+  id="carouselExample"
+  class="carousel slide"
+  data-bs-ride="carousel"
+  style="position: relative"
+>
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="assets/img/pexels-olly-3771111.jpg"
+        class="d-block mx-auto w-100"
+        alt="Imagen 1"
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="assets/img/pexels-burst-544966.jpg"
+        class="d-block mx-auto w-100"
+        alt="Imagen 2"
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="assets/img/pexels-life-of-pix-8092.jpg"
+        class="d-block mx-auto w-100"
+        alt="Imagen 3"
+      />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExample"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <!-- Botón centrado dentro del carrusel -->
+  <div
+    class="position-absolute top-50 start-50 translate-middle"
+    style="
+      position: relative;
+      background-image: url('ruta-a-tu-imagen.jpg');
+      background-size: cover;
+      height: 200px;
+      color: white;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      text-align: center;
+      border-radius: 50px;
+    "
+  >
+    <div>
+      <h1 class="mb-3">Lorem ipsum dolor sit,</h1>
+      <h4 class="mb-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, inventore
+        fuga omnis nisi recusandae
+      </h4>
+      <a
+        data-mdb-ripple-init
+        class="btn btn-outline-light btn-lg"
+        href="#!"
+        role="button"
+        >Ver Proyectos</a
+      >
+    </div>
+  </div>
+
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExample"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
